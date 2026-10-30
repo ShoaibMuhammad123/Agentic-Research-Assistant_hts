@@ -1,0 +1,16 @@
+# secrets
+.env
+*.env
+!.env.example
+
+# data and logs
+*.db
+*.log
+
+# dependencies and builds
+venv_hts_project_19/
+.venv/
+node_modules/
+frontend/dist/
+__pycache__/
+*.pyc

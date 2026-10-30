@@ -1,0 +1,25 @@
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+pydantic-settings>=2.0.0
+python-dotenv>=1.0.0
+
+# LangChain + LangGraph (agentic orchestration)
+langchain>=0.2.0
+langchain-google-genai>=3.0.0
+langchain-community>=0.2.0
+langgraph>=0.2.0
+
+# NEW in Lecture 18: knowledge base search (same stack as Lecture 17/18)
+langchain-huggingface>=0.0.3
+sentence-transformers>=3.0.0   # local embedding model (free, no API key needed)
+qdrant-client>=1.9.0           # vector database client (optional — only if KB is configured)
+
+# Web search
+tavily-python>=0.3.0
+
+# NEW in Lecture 19: PDF generation
+# reportlab is a pure-Python library — no external binary needed
+reportlab>=4.0.0
+
+# Async support
+anyio>=4.0.0
